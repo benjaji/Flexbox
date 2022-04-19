@@ -19,3 +19,24 @@
     font-weight: 700;
     font-size: 1.5rem;
 }
+.buscador-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-area{
+    width: 350px;
+    height: 49px;
+    box-sizing: border-box;
+    border: solid 1px grey;
+}
+.search-btn{
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #56cbf9;
+}
+.search-btn a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
