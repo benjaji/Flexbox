@@ -58,3 +58,26 @@ ul, li{
     padding-right: 20px;
     font-weight: 600;
 }
+.tags-container{
+    display: flex;
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+    box-sizing: border-box;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.tag{
+    background-color: #ff729f;
+    width: 25%;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    margin: 15px;
+}
+.tag a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
